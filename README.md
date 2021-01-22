@@ -1,6 +1,8 @@
 # react-leaflet-canvas-overlay
 
-Used on [https://shademap.app](https://shademap.app)
+![react-leaflet-canvas-overlay in practice](https://shademap.app/og-image.jpg)
+
+**Demo:** [https://shademap.app](https://shademap.app)
 
 React Leaflet component similar to ImageOverlay and VideoOverlay
 
