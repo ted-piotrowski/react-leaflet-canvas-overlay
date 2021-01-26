@@ -1,6 +1,7 @@
 import {
     createLayerComponent,
-    updateMediaOverlay
+
+    MediaOverlayProps, updateMediaOverlay
 } from '@react-leaflet/core';
 import {
     LatLngBounds,
@@ -11,7 +12,7 @@ import { ReactNode } from 'react';
 import { canvasOverlay } from './CanvasOverlay';
 
 
-export interface CanvasOverlayProps {
+export interface CanvasOverlayProps extends MediaOverlayProps {
     children?: ReactNode
     canvas: HTMLCanvasElement
     width?: number;
