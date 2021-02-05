@@ -30,7 +30,6 @@ export const CanvasOverlay = ImageOverlay.extend({
     _initImage: function () {
         const wasElementSupplied = this._url.tagName === 'CANVAS';
         const canvas = this._image = wasElementSupplied ? this._url : DomUtil.create('canvas');
-        console.log({ wasElementSupplied, image: this._image, a: this.getElement() })
 
         DomUtil.addClass(canvas, 'leaflet-image-layer');
         if (this._zoomAnimated) { DomUtil.addClass(canvas, 'leaflet-zoom-animated'); }
